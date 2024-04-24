@@ -5,7 +5,6 @@ let obj = {
   [title]: "Webbrain Academy",
   title,
 };
-
 // console.log(obj[title]);
 // console.log(obj.title);
 console.log(obj.name);
