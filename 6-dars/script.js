@@ -1,5 +1,4 @@
 // while
-
 i = 3;
 // while (i) {
 //   console.log('hey');
@@ -70,7 +69,6 @@ function name() {
 // getAvr("Asliddin", "F", 25);
 // getAvr("Muhammad", "F", 28);
 
-
 // const telegram = (name, surname) => {
 //   if(surname) console.log(name, surname);
 //   else console.log(name);
@@ -97,7 +95,6 @@ console.log(gpa(5, 3, 3, 2));   // 3.25
 // consol bn yozsak oxirgi consolda undefined chiqaradi, return bn yozsak, functiondan chiqqan qiymat ustida ham amal bajarish imkonini beradi.
 
 
-
 // CLEAN CODE -> KO'PROQ FUNCTIONLARNI TO'G'RI NAMING QILISHGA AYTILADI
 // - "get..." -- return a value
 // - "calc..." -- calculate smth
@@ -122,4 +119,4 @@ const funcName = function () {
 
 // 3-savol Qachon functionda return ishlatamiz?
 // Agar functiondan qaytgan qiymat ustida yana amal bajarmoqchi bo'lsak return ishlatamiz
-// return o'sha ma'lum nomli func.ga qiymatni biriktirib qo'yadi!!
+// return o'sha ma'lum nomli func.ga qiymatni biriktirib qo'yadi!!cd
