@@ -75,8 +75,6 @@ else console.log('not found');
 // ? console.log("havo juda sovuq") 
 // : console.log("not found");
 
-
-
 // Nullish
 // ?? - it checks only null and undefined
 // Difference between ?? and || 
