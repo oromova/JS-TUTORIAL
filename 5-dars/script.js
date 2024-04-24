@@ -106,7 +106,6 @@ for (i = 10; i >= 1; i--) {
    console.log(i);  
   }                          // 10dan 2gacha bo'lgan sonlarni 10marta chiqaradi 
  }
-
 // ==============================================
 
 outer: for (i = 1; i <= 2; i++) {
