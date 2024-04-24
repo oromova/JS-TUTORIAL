@@ -1,4 +1,4 @@
-// ======== Type Convirsions | Operators | Comparision | Logical Operators =========
+// ======= Type Convirsions | Operators | Comparision | Logical Operators ========
 // Type Convirsions deb - data typelarni boshqasiga o'zgarishiga aytiladi.
 
 let b = 1;
@@ -21,7 +21,7 @@ console.log(Number.parseFloat(c));   // 10.3 kasr qismi bn birga huddi Numberdek
 console.log(parseInt(c));
 console.log(parseFloat(c));       // Numbersiz yozsak ham bo'ladi
 
-// Type Convirsion yuz berayapti chunki hammasida data taype stringdan numberga o'zgarayapti
+// Type Convirsion yuz berayapti chunki hammasida data type stringdan numberga o'zgarayapti
 
 // ======== variables => boolean
 
@@ -116,3 +116,4 @@ let face = false;
 
 console.log(id && face);     // false
 
+console.log(null && "webbrain")
