@@ -1,4 +1,4 @@
-// Jsga kirish | Variables | Data Types
+//Jsga kirish | Variables | Data Types
 
 let n = -5.678
 console.log(Math.floor(n));
