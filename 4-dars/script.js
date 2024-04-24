@@ -1,4 +1,4 @@
-// if / else
+// if/else
 
 // let temp = 'qor';   // issiq, sovuq, yomg'ir, qor
 
