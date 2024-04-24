@@ -1,3 +1,5 @@
+// Objects Basics 
+
 // Bo'sh obyekt yasamoqchi bo'lsak...
 //  let newObj1 = {}
 //  let newObj2 = new Object();
