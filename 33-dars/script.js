@@ -1,4 +1,4 @@
-// ========== DOM - 2 ==============
+// ========== DOM - 2 | Manipulation of DOM ==============
 
 // let dom = {
 //   title: h1,
