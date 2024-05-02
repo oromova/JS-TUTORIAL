@@ -1,4 +1,4 @@
-// ======= Type Convirsions | Operators | Comparision | Logical Operators ========
+// ====== Type Convirsions | Operators | Comparision | Logical Operators =======
 // Type Convirsions deb - data typelarni boshqasiga o'zgarishiga aytiladi.
 
 let b = 1;
