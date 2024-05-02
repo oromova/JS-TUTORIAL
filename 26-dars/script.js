@@ -1,7 +1,6 @@
 // ========= Error handling | Callback | Promise | Async await ======== 
 
 // Error handling - Obrabotka oshibok
-
 dhsksk;            // bu xato keyingi to'g'ri kodlarni ham o'qishga qo'ymaydi.
 
 console.log(2);    // ReferenceError: dhsksk is not defined
@@ -45,11 +44,9 @@ try {
 } catch (error) {
   console.log(error.name);        // ReferenceError bu errorning nomi
   console.log(error.message);     // dhsksk is not defined - qanday xato bo'layotgani
-
 }
 // agar error name va error messagelarni consolega chiqarmidgan bo'lsak unda 
 // catchni parametriga errorni bermasak ham bo'ladi consoleda esa o'zimiz xohlagan errorni bildiruvchi matnni kiritsak bo'ladi.
-
 
 try {
   console.log(1);
@@ -88,7 +85,6 @@ try {
 
 // asinxron javascript  ES6dan oldin callbacklar bn bajarilgan. 
 // quyidagi misolda 3ta user bor va 4-userni callback orqali kiritayapmiz
-
 
 const users = [
   {name: 'Bexruz', firstName: 'Xolmuminov'},
@@ -132,7 +128,6 @@ function getUser(callback){
   //  bu yerda response = "Http so'rovimizning javobi!"
     console.log(response);
   });
-
 
 // Promise
 
@@ -198,7 +193,6 @@ promis1.then((result) =>{
     })
   })
 
-
   // Promise.all
 
   const getPromise = (time, isResolve = true) => {
@@ -242,7 +236,6 @@ promis1.then((result) =>{
   // promisening allSettled() funksiyasi bilan hamma promislarni massivni ichida obyekt ko'rinishida chiqara olamiz
   // qaysi promise false qilmat qabul qilsa, uning statusi rejected bo'ladi va reason keyida qanday xatolik bo'lganligi yoziladi, aksincha fulfiled.
 
-
   Promise.race([
     getPromise(1000), 
     getPromise(2000, false), 
@@ -270,7 +263,6 @@ promis1.then((result) =>{
   // Promise.resolve() promisening avtomatik resolve qismi bajarilishini ko'rsatadi
   // Promise.reject() avtomatik ravishda xato bo'lganini ko'rsatadi
   
-
 // async => await - promisening boshqa sintaksis bn yozilishi ya'ni bir xil ishni bajaradi faqat tushinarliroq yoziladi. ES7da ishlab chiqilgan 
 // promiseda ko'p so'rovlar ketayotgan bo'lsa then()lar ko'payib ketadi
 // bunday holatda async awaitni ishlatamiz
