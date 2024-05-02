@@ -1,7 +1,6 @@
 // ======== Recursion function(Takrorlash) ========
 // Rekursiv funksiya deb ma'lum bir functionni ichida yana o'sha functionni chaqirishga aytiladi va rukursiv funksiyada to'xtash sharti bo'lishi kerak. Bo'lmasa cheksiz davom etadigan function bo'lib qoladi.
 
-
 // Berilgan sonning yig'indisi toping 
 // for loop bn ishlab ko'ramiz
 
