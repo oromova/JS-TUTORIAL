@@ -1,3 +1,5 @@
+// ========= Advanced Objects | setter and getter functions ==========
+
 // Properties flag and descriptors 
 // - value / true - object value
 // - writable / true - valuee can be changed / false: read-only
