@@ -1,3 +1,5 @@
+// ======== Array Basics ========
+
 let ar = [12, 3, 4, "hey", true, function () {}, null, undefined];
 
 console.log(ar[0]);    // 12
