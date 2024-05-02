@@ -33,5 +33,3 @@ Array.prototype.remove = function (n) {
 
 ar.remove(4);   // arraydan 4 soni o'chdi
 ar.remove(1);   // arraydan 1 soni o'chdi
-
-
