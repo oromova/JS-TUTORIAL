@@ -1,4 +1,4 @@
-// DATASTRUCTURE
+// ========== DATASTRUCTURE ========
 
 let obj = { name: 'webbrain', title: "IT Center", data: {year: 199 } }
 
