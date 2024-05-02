@@ -3,7 +3,6 @@
 // PRIVATE AND PROTECTED
 // visualization: _ is public, # is private
 // private variables can be uptdated bu getter and setter.
-
 class Protected {
   _name = 'webbrain';
   #protected = "dont touch it";
@@ -38,7 +37,6 @@ let a = () => {};
 console.log(a instanceof Object);
 
 // Mixins
-
 class Users {
   getName() {
     console.log("no name");
