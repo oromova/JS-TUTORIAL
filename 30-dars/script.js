@@ -1,5 +1,6 @@
 //========== Proxy 1 ===========
 
+
 // - Proxy - let name = new Proxy(target, handler)
 // - target - is an obj to wrap
 // - handler - proxy configuration
@@ -9,11 +10,6 @@
 // target - firts arg on Proxy
 // property - property name 
 // receiver - obj itself, thiszasz
-
-
-
-
-
 
 
 // let user = {}
@@ -41,7 +37,6 @@
 
 
 // SET 
-
 let user = {
     name: "webbrain",
     pw: 123456, 
@@ -52,8 +47,7 @@ let user = {
         return false
       }
       target[prop] = value // yangi ma'lumot qo'shish un
-      return true
-      
+      return true      
     },  
   });    
   proxy.title = "it center"
