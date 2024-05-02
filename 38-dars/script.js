@@ -1,4 +1,4 @@
-// ============ Select vs Range ===============
+// ============ Select vs Range | Type Racer Game ===============
 
 // Range methods - select / remove / deselect / wrap
 // - let range = new Range(); -- belgilanishi kerak bo'lgan textni save qilib turish uchun 
