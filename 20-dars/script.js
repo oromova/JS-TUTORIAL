@@ -1,5 +1,4 @@
 // =========== Advanced Function ===========
-
 // bind - konteksni yo'nalishini o'zgartirish imkonini beradi.
 
 function myName(){
