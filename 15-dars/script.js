@@ -1,5 +1,5 @@
 // =========== Advanced JavaScript ===========
-// new Map, new Set, weakMap, weakSet
+// =========== new Map, new Set, weakMap, weakSet =========
 
 let obj = {};
 
