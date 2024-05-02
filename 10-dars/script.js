@@ -1,3 +1,5 @@
+// ========= STRING ==========
+
 let str1 = "webbrain";
 let str2 = new String("webbrain");
 
