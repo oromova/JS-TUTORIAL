@@ -1,4 +1,4 @@
-// ========== Events =============
+// ========== DOM - 3 | Events =============
 import {users} from "./data.js";
 
 let data = users;
