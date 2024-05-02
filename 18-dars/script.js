@@ -1,4 +1,4 @@
-// ======== Old var | Global Object ========
+// ======== Old var | Global Object | IIFE ========
 
 console.log(a);
 var a = 10;      // let bn yozilsa ReferenceError: beradi. var bn esa undefined qaytaradi, error bermaydi.
