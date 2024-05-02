@@ -7,4 +7,4 @@
 // import {users} from './mock.js'
 // bitta moduleda 1 ta export default bo'lishi mumkin
 // export default bo'layotgan ma'lumotni importda istalgan nom bilan chaqirsak bo'ladi {} qavslarsiz
-// export ham export default ham qilmasdan faqat import va fayl nomi yozilsa bu avtomatik ravishda fayl yurg'izib beradi funksiyalarni chaqirish ham shart emas
+// export ham export default ham qilmasdan faqat import va fayl nomi yozilsa bu avtomatik ravishda fayl yurg'izib beradi funksiyalarni chaqirish ham shart emas.
