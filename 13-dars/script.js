@@ -21,7 +21,6 @@ let students = [
 //   updateUser({id:2, type: "year", value: 1999 });
 //   console.log(students);
 
-
 //   // CREAD - ADD USER
 
 //   const addUser = (user) => {
@@ -30,7 +29,6 @@ let students = [
 //   }
 
   // addUser({year: 2019, name: "webbrain"})
-
 
 //   // READ - MA'LUMOTLARNI CONSOLEGA CHIQARISH BU READ
 
@@ -64,7 +62,6 @@ const getFilter = ({key, value}) => {
 //getFilter({value: 3, key: "id"})
 getFilter({value: "Asilbek", key: "name"})
 console.log(students);
-
 
 //   // DELETE - MA'LUMOTNI O'CHIRIB YUBORISH. DELETE QILISH UCHUN filter() dan foydalaniladi.
 
