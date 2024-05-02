@@ -1,3 +1,5 @@
+// =========== Cache | DDOS attack Types ===========
+
 function getData() {
   return fetch("https://jsonplaceholder.typicode.com/users").then((res) =>
   res.json()
