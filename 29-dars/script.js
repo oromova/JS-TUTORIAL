@@ -35,5 +35,4 @@ const operations = (type) => {
 }
 
 const math = operations('multiply');
-
 console.log(math(2)(2)(3));
