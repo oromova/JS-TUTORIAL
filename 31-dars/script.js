@@ -1,7 +1,5 @@
 //========== Proxy 2 ===========
 
-// ============= Proxy - 2 =============
-
 // ownKeys - faqat loop uchun ishlatiladi
 
 // prived bo'lgan ma'lumotni loop bo'lishini oldini olish uchun
@@ -23,7 +21,6 @@ for (vl in proxy) {
 // ownKeysda proxy faqat loop bo'layotganda prived ma'lumotlarni chiqarmaydi
 // proxyini o'zini consolega chiqarsak, hamma keylari chiqadi
 
-
 // has(target, prop)
 // 1 bn 10 orasidagi  sonlar bor yoki yo'qligini aniqlamoqchi bo'lsak
 
@@ -41,7 +38,6 @@ let proxy1 = new Proxy(range, {
 // range.to = 100  // qilib o'zgartirish mumkin
 console.log(1 in proxy1);  // true    true yoki false qaytaradi agar shartga mos tushmasa
 console.log(11 in proxy1); // false
-
 
 // Reflect -  bu new Proxyni faqatgina setter va getter bn soddalashtirilgani varianti
 
@@ -65,4 +61,3 @@ let useer = {
 
 let data = useer.get;
 data.call(useer);      // webbrain 1234    bunday holatda this yo'qolib qoladi shuning un call() bn chaqiriladi
-
