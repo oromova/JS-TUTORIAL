@@ -23,7 +23,6 @@ User.prototype.getFullName = function(){
   return `${this.name} ${this.lastName}`
 }
 
-
 // Instans object
 const user1 = new User('Bexruz', 'Xolmuminov', '1-2-1980')
 const user2 = new User('Malika', 'Aliyeva', '2-3-1990')
@@ -61,7 +60,6 @@ const user5 = new User('Malika', 'Aliyeva', '1-1-2005')
 console.log(user4);
 
 // ========================================
-
 
 // class User {
 //   fullName(name) {
@@ -151,7 +149,6 @@ class Wolf extends Animals{                   // extends orqali Animaldagi speed
   }
 }
 
-
 let animal = new Animals();
 let rb = new Rabbit()
 let wl = new Wolf()
@@ -161,8 +158,7 @@ animal.speed(12)
 rb.info('Quyon')
 animal.speed(10)
 
-
-// ======== Overriding methods
+// ======== Overriding methods ============
 
 class Animals {
   parent() {
@@ -172,7 +168,6 @@ class Animals {
     console.log(`Run ${speed} per hour`);
   }
 }
-
 
 class Rabbit extends Animals {          // Rabbit Animalsni ichidagi ma'lumotlarni meros qilib ovoldi
   child(){
@@ -188,7 +183,7 @@ class Rabbit extends Animals {          // Rabbit Animalsni ichidagi ma'lumotlar
 let animal1 = new Animals();
 let rb1 = new Rabbit()
 
-//===== Overriding constructor
+//===== Overriding constructor ==========
 
 // parentni ichiga child parametrining qiymati borishi un
 
