@@ -1,4 +1,4 @@
-// NUMBERS
+// ========== NUMBERS ==========
 // (e) represents 0
 // katta sonlarni o'qishda oson bo'lishi uchun _ dan foydalanamiz
 console.log(100_000_000);          // 100000000
