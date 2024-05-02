@@ -1,4 +1,4 @@
-// ============ Prototype ===========
+// ============ Prototype | _proto_ ===========
 
 let user1 = { name: 'webbrain' };
 let user2 = { title: 'Academy' };

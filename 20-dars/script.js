@@ -23,11 +23,10 @@ const gentra = {
 
 car.info.bind(gentra, "Chevrolet")()   //  Car name is: Gentra
                                        //  Year: 2020
-
 // bind metodi car obyektini info keyiga gentra obyektiga o'zgartirib berayapti
 
 car.info.call(gentra, 'Chevrolet')
 //call bn bindning farqi call funksiyani birdaniga chaqiradi bind esa yangi funksiya qaytaradi va uni chaqirish kk bo'ladi
 
 car.info.apply(gentra, ['Chevrolet'])
-// apply ham calldek bir xil birdaniga funksiyani chaqiradi, faqat parametr [] arrayda berilishi kk.
+// apply ham calldek bir xil birdaniga funksiyani chaqiradi, faqat parametr [] arrayda berilishi kk

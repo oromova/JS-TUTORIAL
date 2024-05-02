@@ -1,4 +1,4 @@
-// // // ========== Events 2 =============
+// ========== DOM - 4 | Advanced Events 2 =============
 // function onclick() {
 //   console.log('button clicked')
 // }
@@ -74,5 +74,5 @@ table.onclick = function (event) {
   //   target.classList.remove("higthlite");
   //   target = event.target;
   // target.classList.add("higthlite")
- 
+
 }
