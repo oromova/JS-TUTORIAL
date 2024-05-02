@@ -1,3 +1,5 @@
+// ====== DOM 1 | KIRISH =======
+
 //alert(window.innerHeight);
  
 //alert(document.href)
