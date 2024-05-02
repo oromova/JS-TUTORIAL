@@ -55,12 +55,8 @@ let login = document.querySelector('#login')
 // - method - method ga jb beradi
 // - onsubmit= (event) =>
 
-
-
 form.onsubmit = (event) => {
   form.action = `https://jsonplaceholder.typicode.com/todos/${form.select.value}`;
   form.method = "PUT";
   console.log(form.select.value);
 }
-
-
