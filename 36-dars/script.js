@@ -1,4 +1,4 @@
-// ====== Mouse Events in Deep =======
+// ====== DOM - 5 | Mouse Events in Deep =======
 
 // mouse event
 // - onclick - when the mouse clicks on an element
@@ -54,7 +54,6 @@
 
 // shunday qilib mousemove eventi bn sichqonchaning harakatlanishiga bog'liq bo'lgan caselarni bajarishimiz mumkin.
 
-
 // Keyboard events
 
 // box.addEventListener("mousemove", (event) => {
@@ -71,7 +70,6 @@
 // const change = (event) =>{
 //   console.log(event.key, event.type, event.code);   //f keypress KeyF   
 // };                                                  // 
-
 
 // ======== Scroll events and Project ============
 
