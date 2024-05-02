@@ -4,7 +4,6 @@
 setTimeout(callback, time, arg)
 setTimeout((a, b) => {}, 1000, 'hey', 'you') // 1000 bu 1 sekund
 
-
 setTimeout(() => {
   console.log("After one sec");
 }, 3000)             // 3 sekunddan kn After one sec degan yozuv chiqayapti
@@ -25,7 +24,6 @@ setTimeout(() => {
 console.log(3);         // 1 3 2 4   settimeoutdagilar baribir log()da yozilganlardan kn chiqadi
 
 // yana bir misol
-
 console.log(1);
 
 const get = () => {
@@ -40,11 +38,11 @@ setTimeout(() => {
 
 console.log(3);          // 1 4 3 2
 
-// 3- parametr qanday ishlatiladi?
-
+// 3 - parametr qanday ishlatiladi?
 setTimeout((a) => {
   console.log(2, a);
 }, 0, 'hey');           // 2 hey  a parametriga hey qiymat biriktirilib consoleda chiqarilayapti
+
 
 
 // ======== setInterval =========
