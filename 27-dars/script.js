@@ -73,4 +73,4 @@ onDelete(3);
 add("Gulbashakar2")
 add("Gulbashakar3")
 
-console.log(user);
+console.log(user);   
